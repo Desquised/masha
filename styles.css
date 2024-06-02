@@ -1,0 +1,183 @@
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+
+}
+
+
+
+.section {
+
+    height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: #fff;
+
+    font-size: 2rem;
+
+    text-align: center;
+
+    position: relative;
+
+}
+
+.section .content {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+.section .content p.bounce {
+
+    position: relative;
+
+    animation: bounce 1.5s infinite;
+
+    top: 300px;
+
+}
+
+
+
+.section .content p span.arrow {
+
+    animation: bounce 1.5s infinite;
+
+    margin-top: 10px;
+
+}
+
+
+
+.parallax {
+
+    position: relative;
+
+    background-attachment: fixed;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    overflow: hidden;
+
+}
+
+
+
+.section:nth-child(odd) {
+
+    background-image: url('https://i.ibb.co/zrCByX5/welocome.png');
+
+}
+
+
+
+.section:nth-child(even) {
+
+    background-image: url('https://i.ibb.co/tp10fMS/not.png');
+
+}
+
+
+
+.content {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+.clickable {
+
+    cursor: pointer;
+
+    text-decoration: none;
+
+    color: inherit;
+
+}
+
+
+
+@keyframes bounce {
+
+    0% {
+
+        transform: translateY(0);
+
+    }
+
+    50% {
+
+        transform: translateY(50px);
+
+    }
+
+    100% {
+
+        transform: translateY(0);
+
+    }
+
+}
+
+/* Estilos personalizados para la barra de desplazamiento */
+
+::-webkit-scrollbar {
+
+  width: 6px; /* Ancho de la barra de desplazamiento */
+
+}
+
+
+
+::-webkit-scrollbar-thumb {
+
+  background-color: #464646;
+
+  border-radius: 3px;
+
+}
+
+
+
+::-webkit-scrollbar-thumb:hover {
+
+  background-color: #555;
+
+}
+
+
+
+::-webkit-scrollbar-track {
+
+  background-color: #f1f1f1;
+
+}
