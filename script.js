@@ -101,11 +101,3 @@ window.addEventListener('DOMContentLoaded', function() {
     divElement.style.backgroundRepeat = "no-repeat"; // Evita que la imagen se repita
 
   });
-
-  const inviteUrl = new URL(window.location.href).searchParams.get("invite");
-        if (inviteUrl) {
-            alert("Serás redirigido al servidor de Discord. Haz clic en Aceptar para continuar.");
-            window.location.href = inviteUrl;
-        } else {
-            document.body.innerHTML = "<h1>Error: No se encontró la URL de invitación.</h1>";
-        }
