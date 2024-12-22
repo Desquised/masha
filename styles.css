@@ -9,7 +9,10 @@ body {
 }
 
 .hidden {
-    display: none;
+    opacity: 0;                    
+    transform: translateY(20px);   
+    pointer-events: none;          
+    transition: opacity 0.5s, transform 0.5s; 
 }
 
 
