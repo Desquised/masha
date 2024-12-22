@@ -34,7 +34,7 @@ body {
 
     position: absolute;
 
-    top: 50%;
+    top: 60%;
 
     left: 50%;
 
@@ -50,7 +50,7 @@ body {
 
     animation: bounce 1.5s infinite;
 
-    top: 300px;
+    top: 200px;
 
 }
 
