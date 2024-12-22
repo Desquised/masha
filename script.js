@@ -80,18 +80,19 @@ const observer = new IntersectionObserver((entries) => {
 
 observer.observe(section);
 
+// Obtener el elemento del mensaje
 const scrollMessage = document.getElementById('scrollMessage');
 
-        // Escuchar el evento de desplazamiento (scroll)
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 0) {
-                // Si el usuario se desplaza hacia abajo, ocultar el mensaje
-                scrollMessage.classList.add('hidden');
-            } else {
-                // Si el usuario está en el tope de la página, mostrar el mensaje
-                scrollMessage.classList.remove('hidden');
-            }
-        });
+// Escuchar el evento de desplazamiento (scroll)
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 0) {
+        // Si el usuario se desplaza hacia abajo, ocultar el mensaje
+        scrollMessage.classList.add('hidden');
+    } else {
+        // Si el usuario está en el tope de la página, mostrar el mensaje
+        scrollMessage.classList.remove('hidden');
+    }
+});
 
 const div = document.querySelector("body > div:nth-child(2)");
 
