@@ -154,11 +154,10 @@ body {
 
 }
 
-/* Estilos personalizados para la barra de desplazamiento */
 
 ::-webkit-scrollbar {
 
-  width: 6px; /* Ancho de la barra de desplazamiento */
+  width: 6px;
 
 }
 
