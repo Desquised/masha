@@ -54,7 +54,7 @@ const observer = new IntersectionObserver((entries) => {
 observer.observe(section);
 
 const div = document.querySelector("body > div:nth-child(2)");
-div.style.background = "url('https://image.lexica.art/full_webp/faba5f35-2c22-4d61-9a6b-005d9b5f1886')";
+div.style.background = "url('https://i.ibb.co/6nw7v1P/important.webp')";
 div.style.backgroundSize = "cover";
 
 window.addEventListener('DOMContentLoaded', function() {
