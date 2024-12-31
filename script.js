@@ -59,7 +59,7 @@ div.style.backgroundSize = "cover";
 
 window.addEventListener('DOMContentLoaded', function() {
   var divElement = document.querySelector('body > div:nth-child(1)');
-  divElement.style.backgroundImage = "url('https://i.ibb.co/GMH171b/img-s-Daje-PWn-HHUs9-FIP32u-OJb-SA-1.png')";
+  divElement.style.backgroundImage = "url('https://i.ibb.co/9ZvkXgz/mashaaa.webp')";
   divElement.style.backgroundSize = "cover";
   divElement.style.backgroundRepeat = "no-repeat";
 });
