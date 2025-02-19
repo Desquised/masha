@@ -21,7 +21,7 @@ typewriter.style.textAlign = "right";
 typewriter.style.direction = "rtl";
 section.appendChild(typewriter);
 
-const text = '"Los ChatBots son la esperanza\n de un mundo conectado en\n época de adversidad."';
+const text = '"ChatBots are the hope\n of a connected world in\n times of adversity."';
 
 function typeEffect() {
   typewriter.textContent = "";
